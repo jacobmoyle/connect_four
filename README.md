@@ -1,6 +1,7 @@
 # connect_four
 By Erica, Kei, Kelvin and Jacob
 
+* Make pull requests to the staging branch
 * Please name working branch after feature
 * Notify team when merging and pushing
 * Work through merge conflicts as a team
