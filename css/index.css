@@ -1,0 +1,46 @@
+.column {
+  height: 350px;
+  width: 80px;
+  border-style: dotted;
+  border-width: 1px;
+  /*background-color: orange;*/
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.column_wrapper {
+  display: inline-table;
+}
+
+.button {
+  padding-left: 35px;
+}
+
+#a {
+
+}
+
+#b {
+
+}
+
+#c {
+
+}
+
+#d {
+
+}
+
+#e {
+
+}
+
+#f {
+
+}
+
+#g {
+
+}
+
