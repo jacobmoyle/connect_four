@@ -19,7 +19,15 @@ player 2 function - if player 2 clicks on 1 of the columns, we need to pull that
 
 */
 // chipDrop("player1", a)
-var array = [[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]
+var array = [
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0],
+              [0,0,0,0,0,0]
+            ]
 
 
 
@@ -46,6 +54,8 @@ var getColumnid = function(column){
   }
 }
 
+//FOR THE FOLLOWING FUNCTION:
+//need to toggle between player 1 and 2
 
 var chipDrop = function(player, column) {
 
@@ -60,9 +70,14 @@ var chipDrop = function(player, column) {
   } else {
 
   }
+
+  // See winCheck below
+  // winCheck()
 }
 
-
+// create a check win function:
+//  calls horizontal, vertical and diagonal win functions
+// This is called after every player 'turn' that is divisible by a prime number
 
 var horizontalWin = function(array, index) {
   for(i=0; i<array.length; i++){
@@ -71,6 +86,24 @@ var horizontalWin = function(array, index) {
 
   }
 }
+
+
+
+var verticalWin = function(array, index){
+  var temp_string = ""
+  for(i=0; i < array.length; i++){
+    array[i].toString;
+  }
+
+}
+
+// var winCheck = function() {
+  // if any of the below, return true or something
+  // all button functionality stops, etc.
+//   verticalWin();
+//   horizontalWin();
+//   diagonalWin();
+// }
 
 chipDrop("player1", "a")
 // console.log(array);
